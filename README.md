@@ -7,9 +7,9 @@ Outdent is a simple here document generator with pretty indents.
 ## install
 
 ```shell
-$ yarn add outdent
+$ yarn add @kamataryo/outdent
 # or
-$ npm insall outdent
+$ npm insall @kamataryo/outdent
 ```
 
 ## usage
