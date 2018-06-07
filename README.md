@@ -1,6 +1,7 @@
 # outdent
-
+[![npm version](https://badge.fury.io/js/%40kamataryo%2Foutdent.svg)](https://badge.fury.io/js/%40kamataryo%2Foutdent)
 [![Build Status](https://travis-ci.org/kamataryo/outdent.svg?branch=master)](https://travis-ci.org/kamataryo/outdent)
+[![Runkit](https://img.shields.io/badge/RunKit-Try!-brightgreen.svg)](https://runkit.com/kamataryo/outdent)
 
 Outdent is a simple here document generator with pretty indents.
 

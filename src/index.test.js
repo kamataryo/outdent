@@ -27,7 +27,7 @@ test('work with prototype extension mode', t => {
     `
       These are sentences.
       I want them to be outdented.
-    `[outdent.$],
+    `[outdent.$outdent],
     'These are sentences.\nI want them to be outdented.'
   )
 })
