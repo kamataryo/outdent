@@ -1,6 +1,6 @@
 {
   "name": "@kamataryo/outdent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple here document generator with pretty indents",
   "main": "src/index.js",
   "scripts": {
