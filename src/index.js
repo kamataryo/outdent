@@ -34,7 +34,7 @@ const outdent = (...taggedTemplates) => {
   return stripIndent(value).replace(/\s*$/, '')
 }
 
-// prototype extension mode
+// for prototype extension mode
 const $outdent = Symbol('outdent')
 
 Object.defineProperty(String.prototype, $outdent, {
@@ -43,7 +43,8 @@ Object.defineProperty(String.prototype, $outdent, {
   }
 })
 
-outdent.$outdent = $outdent
+outdent.toString = () => $outdent
+
 outdent.default = outdent
 
 module.exports = outdent

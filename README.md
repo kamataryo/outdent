@@ -30,7 +30,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ```
 
 ```javascript
-// It's pretty 😄
+// pretty 😄
 const outdent = require('@kamataryo/outdent')
 function() {
   return function() {
@@ -47,8 +47,7 @@ function() {
 Prototype extension mode.
 
 ```javascript
-const { $outdent } = require('@kamataryo/outdent')
-typeof $outdent // Symbol
+const outdent = require('@kamataryo/outdent')
 
 function() {
   return function() {
@@ -57,7 +56,7 @@ function() {
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    `[$outdent]
+    `[outdent]
   }
 }
 ```
