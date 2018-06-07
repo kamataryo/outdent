@@ -31,7 +31,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 ```javascript
 // It's pretty 😄
-const outdent = require('outdent')
+const outdent = require('@kamataryo/outdent')
 function() {
   return function() {
     return outdent`
@@ -47,8 +47,8 @@ function() {
 Prototype extension mode.
 
 ```javascript
-const { $outdent } = require('outdent')
-typeof outdent // Symbol
+const { $outdent } = require('@kamataryo/outdent')
+typeof $outdent // Symbol
 
 function() {
   return function() {
